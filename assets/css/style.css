@@ -480,12 +480,12 @@ footer p {
   .image-block figcaption {
     text-align: center; /* Ensure caption is centered too */
   }
-@media (max-width: 768px) {
+
   footer {
     font-size: 0.40rem;
     padding: 15px;
   }
-                          }
+
 /* Highlight the current page in navoigation */
 .nav-menu a[aria-current="page"] {
   text-decoration: underline;
