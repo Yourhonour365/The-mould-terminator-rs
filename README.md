@@ -85,7 +85,18 @@ The CSS file was tested using the W3C Jigsaw CSS Validator.
 
 ### Responsiveness
 The website was manually tested on multiple screen sizes (desktop, tablet, mobile).
-Screenshots of the responsive views will be added here.
+
+**Desktop view:**
+
+![Desktop responsive](assets/readme/responsive-desktop.png)
+
+**Tablet view:**
+
+![Tablet responsive](assets/readme/responsive-tablet.png)
+
+**Mobile view:**
+
+![Mobile responsive](assets/readme/responsive-mobile.png)
 
 ### Manual Testing
 - Navigation links work correctly and open the correct pages.
