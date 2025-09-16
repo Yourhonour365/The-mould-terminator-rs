@@ -27,7 +27,7 @@ h2 {
   font-size: 2rem;
   margin-top: 40px;
   margin-bottom: 10px;
-  color: #333;
+  color: #FAF9F6;
 }
 
 h3 {
@@ -495,4 +495,8 @@ footer p {
 .nav-menu a:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 2px;
+}
+
+.thank-you-heading {
+  color: #333;  /* darker text to stand out on light background */
 }
