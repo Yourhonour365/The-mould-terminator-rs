@@ -109,3 +109,44 @@ The website was manually tested on multiple screen sizes (desktop, tablet, mobil
 - Removed `target="_blank"` from internal navigation links.
 - Fixed unclosed HTML tags to pass validation.
 - Corrected image paths to display properly on GitHub Pages.
+## Features
+
+### Implemented Features
+- **Responsive Navigation**: Consistent navigation bar across all pages, with the current page highlighted.
+- **Hero Section**: Prominent hero banner with logo and tagline on the homepage.
+- **Educational Content**: Clear explanations of black mould, its causes, and associated health risks.
+- **Audience-Specific Pages**: Separate guidance for tenants, homeowners, and landlords.
+- **Contact Page**: Accessible form with required fields for urgent issues, plus email, phone, and WhatsApp options.
+- **Resources Section**: Internal links to related pages for further reading.
+- **Accessibility Enhancements**: Added ARIA labels, `aria-current`, alt text for images, and semantic HTML structure.
+- **Validation Compliance**: All pages pass W3C HTML and CSS validation.
+- **Responsive Design**: Fully responsive on desktop, tablet, and mobile devices.
+
+### Future Enhancements
+- Add video content explaining black mould prevention.
+- Include a FAQ section for common tenant/landlord questions.
+- Add a blog/news section for up-to-date health and housing updates.
+- Implement a booking form for consultations.
+- Expand resources with downloadable PDF guides.
+
+---
+
+## Credits
+
+### Content
+- All written content was created by me for educational purposes as part of the Code Institute Portfolio Project.
+- Legal and health-related references were inspired by UK government guidance and NHS resources.
+
+### Media
+- Hero and example mould images sourced from free stock photo libraries (Unsplash / Pixabay) unless otherwise stated.
+- Infographics and diagrams created by me.
+- Logos and branding assets created specifically for this project.
+
+### Articles Referenced
+- [Independent – Black mould linked to baby hospital admissions](https://www.independent.co.uk/tv/news/black-mould-panorama-baby-hospital-admissions-b2695729.html)
+- [BBC News – Awaab Ishak case](https://www.bbc.co.uk/news/uk-63642856)
+
+### Acknowledgements
+- Thanks to Code Institute for the project brief and assessment criteria.
+- Assistance with debugging, accessibility, and project structuring provided by **ChatGPT (OpenAI)** and **Claude AI (Anthropic)**.
+
