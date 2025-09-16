@@ -81,7 +81,7 @@ main {
 .nav-header {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
   background: #333;
   padding: 20px 40px;
@@ -283,8 +283,8 @@ main {
 }
 
 aside {
-  background: #FAF9F6;          
-  border-left: 4px solid #C1272D; 
+  background: #FAF9F6;
+  border-left: 4px solid #C1272D;
   padding: 20px;
   margin: 40px 0;
   font-size: 1rem;
@@ -293,7 +293,7 @@ aside {
 
 aside h4 {
   margin-top: 0;
-  color: #C1272D;              
+  color: #C1272D;
   font-size: 1.25rem;
 }
 
@@ -307,7 +307,7 @@ aside a {
 }
 
 aside a:hover {
-  color: #8B0000;               
+  color: #8B0000;
 }
 
 /* ===============================
@@ -382,14 +382,14 @@ footer p {
 
     /* HEADER & NAV */
     header {
-      flex-direction: column;     
+      flex-direction: column;
       align-items: center;
       text-align: center;
       padding: 20px;
     }
 
     .nav-menu ul {
-      flex-direction: row;       
+      flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
       gap: 10px;
@@ -398,19 +398,19 @@ footer p {
     }
 
     .nav-menu a {
-      display: block;             
+      display: block;
       padding: 5px 10px;
-      font-size: 16px;           
+      font-size: 16px;
     }
 
     /* HERO SECTION */
     .hero {
-      height: auto;               
+      height: auto;
       padding: 0 20px;
     }
 
     .hero-content {
-      flex-direction: column;     
+      flex-direction: column;
       text-align: center;
     }
 
@@ -423,7 +423,7 @@ footer p {
     /* IMAGE-TEXT & TEXT-IMAGE BLOCKS */
     .image-text-block,
     .text-image-block {
-      flex-direction: column;     
+      flex-direction: column;
       text-align: center;
     }
 
@@ -439,10 +439,10 @@ footer p {
 
     /* URGENT HELP BLOCK */
     .urgent-help {
-      flex-direction: column;     
+      flex-direction: column;
       padding: 20px;
     }
-    
+
 
     /* GENERAL TEXT SIZE ADJUSTMENTS */
     h1 {
@@ -466,7 +466,7 @@ footer p {
       padding: 0 15px;
     }
 }
- 
+
   .image-block {
     text-align: center;
     margin: 20px auto;  /* Center the whole block */
@@ -486,3 +486,13 @@ footer p {
     padding: 15px;
   }
                           }
+/* Highlight the current page in navoigation */
+.nav-menu a[aria-current="page"] {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.nav-menu a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
