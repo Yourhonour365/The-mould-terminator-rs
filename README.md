@@ -51,3 +51,50 @@ To clone and run this project locally:
    cd The-mould-terminator-rs
 
 2. Open the `index.html` file in your preferred web browser.
+
+## Testing
+
+### HTML Validation
+All pages were tested using the official W3C Markup Validation Service.
+
+**Index page result:**
+![HTML validation for index page](assets/readme/validation-index.png)
+
+**Contact page result:**
+![HTML validation for contact page](assets/readme/validation-contact.png)
+
+**Black mould page result:**
+![HTML validation for Black mould page](assets/readme/validation-black-mould.png)
+
+**Health risks page result:**
+![HTML validation for Health risks page](assets/readme/validation-health-risks.png)
+
+**Homeowners page result:**
+![HTML validation for Homeowners page](assets/readme/validation-homeowners.png)
+
+**Landlords page result:**
+![HTML validation for Landlords page](assets/readme/validation-landlords.png)
+
+**Tenants page result:**
+![HTML validation for Tenants page](assets/readme/validation-tenants.png)
+
+### CSS Validation
+The CSS file was tested using the W3C Jigsaw CSS Validator.
+
+![CSS validation for style.css](assets/readme/validation-css.png)
+
+### Responsiveness
+The website was manually tested on multiple screen sizes (desktop, tablet, mobile).
+Screenshots of the responsive views will be added here.
+
+### Manual Testing
+- Navigation links work correctly and open the correct pages.
+- Images load as expected on all pages.
+- Contact form inputs accept text, email, and phone number correctly.
+- Footer content displays consistently across all pages.
+- aria-current highlights the active page in the navigation menu.
+
+### Bugs Fixed
+- Removed `target="_blank"` from internal navigation links.
+- Fixed unclosed HTML tags to pass validation.
+- Corrected image paths to display properly on GitHub Pages.
