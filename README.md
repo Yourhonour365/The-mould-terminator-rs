@@ -33,4 +33,21 @@ Our website provides **clear, jargon-free advice**, **practical solutions**, and
 ---
 
 ## Tech Stack
+- **HTML5 & CSS3** — For responsive and semantic web structure.
+- **Accessibility** — Focus on clear navigation, proper ARIA labels, and responsive design.
 
+## Deployment
+
+This project is deployed using **GitHub Pages**.
+
+🔗 **Live Site:** [The Mould Terminator Website](https://yourhonour365.github.io/The-mould-terminator-rs/)
+
+### How to run locally
+
+To clone and run this project locally:
+
+1. Open your terminal and clone the repository, then move into the folder:
+   git clone https://github.com/Yourhonour365/The-mould-terminator-rs.git
+   cd The-mould-terminator-rs
+
+2. Open the `index.html` file in your preferred web browser.
