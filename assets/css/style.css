@@ -144,12 +144,17 @@ main {
   background: rgba(0, 0, 0, 0.6);
   padding: 20px;
   border-radius: 10px;
+  /* center the logo inside this box */
+  display: flex;
+  align-items: center;     /* vertical centering */
+  justify-content: center; /* horizontal centering */
+
 }
 
 .hero-logo-block img {
-  max-width: 150px;
-  height: auto;
   display: block;
+  max-width: 150px;
+  height: auto;       /* keeps proportions */
 }
 
 .hero-text-block {
@@ -159,7 +164,18 @@ main {
   border-radius: 10px;
   margin-left: 40px;
   text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 20px;
+
 }
+
+.hero-text-block h1 {
+  margin: 0; /* reset heading margins */
+}
+
 
 .urgent-help {
   background: rgba(51, 51, 51, 0.6);
@@ -200,6 +216,7 @@ main {
   border-radius: 0;
   max-width: 100%;
   margin: 0 auto;
+
 }
 
 .image-text-block img,
